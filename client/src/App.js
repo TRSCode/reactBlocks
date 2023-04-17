@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import Header from './components/Header';
 import Navigation from './components/Navigation';
 import Main from './components/Main';
@@ -10,14 +9,18 @@ import Advertisement from './components/Advertisement';
 function App() {
   return (
     <div className="app">
-      <Header />
-      <Navigation />
-      <Main>
-        <SubContents />
-        <SubContents />
-        <SubContents />
-        <Advertisement />
-      </Main>
+      <Header/>
+      <div className="container">
+        <Navigation />
+        <Main>
+          <div className="subcontent-container">
+            <SubContents/>
+            <SubContents/>
+            <SubContents/>
+          </div>
+          <Advertisement/>
+        </Main>
+      </div>
     </div>
   );
 }
