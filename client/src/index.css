@@ -1,40 +1,6 @@
-/* .header {
-  background-color: #6aa84f;
-  height: 100px;
-  width: 100%;
-  border: 2px solid black;
-}
-
-.navigation {
-  height: 400px;
-  width: 20%;
-  background-color: #6fa8dc;
-  margin: 10px 10px 10px 0px;
-  border: 2px solid black;
-}
-
-.main {
-  height: 500px;
-  width: 80%;
-  margin-top: 10px;
-  background-color: #e06666;
-  border: 2px solid black;
-}
-
-.flex {
-  display: flex;
-}
-
-.tempBox {
-  border: 2px solid rgb(117, 45, 219);
-  width: 95%;
-  height: 80%;
-} */
-
 .app {
   display: flex;
   flex-direction: column;
-  /* min-height: 100vh; */
 }
 
 .header {
@@ -49,11 +15,9 @@
 
 .container {
   display: flex;
-  /* flex: 1; */
 }
 
 .navbar {
-  /* flex-basis: 20%; */
   height: 400px;
   width: 20%;
   background-color: #6fa8dc;
